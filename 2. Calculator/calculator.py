@@ -2,7 +2,7 @@
 
 #So here is my first ever project, a very simple calculator that does only 1 operation. 
 
-def get_number(prompt):                                 #ask the user for a number
+def get_number(prompt):                                 #ask the user for a single number
     while True:
         try:
             number = float(input(prompt))               #handles exceptions, in this case if it's not a number, we type try so that the programm
